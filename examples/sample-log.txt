@@ -1,2 +1,2 @@
-Oct 17 10:00:00 server sshd[1234]: Failed password for user1 from 192.168.1.10 port 22
-Oct 17 10:01:00 server sshd[1235]: Failed password for user2 from 192.168.1.11 port 22
+python src/analyzer.py
+
