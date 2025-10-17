@@ -1,1 +1,10 @@
+patterns:
+  failed_login:
+    regex: "Failed password for (\w+) from (\d+\.\d+\.\d+\.\d+)"
+    level: "critical"
+  ssh_success:
+    regex: "Accepted password for (\w+) from (\d+\.\d+\.\d+\.\d+)"
+    level: "info"
+
+report_file: "reports/report.csv"
 
